@@ -1,0 +1,27 @@
+{
+  "order_number": 80093,
+  "schecule_start_date": "2024-01-09",
+  "schecule_end_date": "2024-10-03",
+  "actual_start_date": "2024-05-04",
+  "description": "This is a 1st level order",
+  "status": "in_progress",
+  "dependencies": [
+    {
+      "order_number": 22450,
+      "schecule_start_date": "2024-02-05",
+      "schecule_end_date": "2024-07-20",
+      "actual_start_date": "2024-04-25",
+      "description": "This is a 2nd level order",
+      "status": "completed"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 971,
+      "resource_name": "Metro Paint Center",
+      "resource_type": "Quality Control",
+      "resource_quantity": 12,
+      "resource_unit": "day"
+    }
+  ]
+}

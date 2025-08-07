@@ -1,0 +1,68 @@
+{
+  "order_number": 80033,
+  "schecule_start_date": "2024-02-12",
+  "schecule_end_date": "2024-11-24",
+  "actual_start_date": "2024-08-06",
+  "description": "This is a 1st level order",
+  "status": "completed",
+  "dependencies": [
+    {
+      "order_number": 22388,
+      "schecule_start_date": "2024-01-07",
+      "schecule_end_date": "2024-09-02",
+      "actual_start_date": "2024-01-30",
+      "description": "This is a 2nd level order",
+      "status": "completed"
+    },
+    {
+      "order_number": 50415,
+      "schecule_start_date": "2024-04-02",
+      "schecule_end_date": "2024-09-10",
+      "actual_start_date": "2024-06-08",
+      "description": "This is a 2nd level order",
+      "status": "completed",
+      "actual_end_date": "2024-12-19"
+    },
+    {
+      "order_number": 89912,
+      "schecule_start_date": "2024-04-07",
+      "schecule_end_date": "2024-10-09",
+      "actual_start_date": "2024-08-11",
+      "description": "This is a 2nd level order",
+      "status": "completed",
+      "actual_end_date": "2024-10-16"
+    },
+    {
+      "order_number": 46413,
+      "schecule_start_date": "2024-03-18",
+      "schecule_end_date": "2024-07-28",
+      "actual_start_date": "2024-01-21",
+      "description": "This is a 2nd level order",
+      "status": "completed",
+      "actual_end_date": "2024-10-24"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 7,
+      "resource_name": "Prime Fabrication",
+      "resource_type": "Quality Control",
+      "resource_quantity": 23,
+      "resource_unit": "hour"
+    },
+    {
+      "resource_id": 376,
+      "resource_name": "Reliable Transport",
+      "resource_type": "Paint shop",
+      "resource_quantity": 4,
+      "resource_unit": "piece"
+    },
+    {
+      "resource_id": 439,
+      "resource_name": "Prime Fabrication",
+      "resource_type": "Paint shop",
+      "resource_quantity": 20,
+      "resource_unit": "piece"
+    }
+  ]
+}

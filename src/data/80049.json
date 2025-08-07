@@ -1,0 +1,77 @@
+{
+  "order_number": 80049,
+  "schecule_start_date": "2024-03-14",
+  "schecule_end_date": "2024-08-20",
+  "actual_start_date": "2024-08-08",
+  "description": "This is a 1st level order",
+  "status": "completed",
+  "dependencies": [
+    {
+      "order_number": 93860,
+      "schecule_start_date": "2024-05-07",
+      "schecule_end_date": "2024-08-28",
+      "actual_start_date": "2024-05-08",
+      "description": "This is a 2nd level order",
+      "status": "in_progress"
+    },
+    {
+      "order_number": 90460,
+      "schecule_start_date": "2024-03-29",
+      "schecule_end_date": "2024-08-07",
+      "actual_start_date": "2024-05-28",
+      "description": "This is a 2nd level order",
+      "status": "unexecutable"
+    },
+    {
+      "order_number": 57286,
+      "schecule_start_date": "2024-04-21",
+      "schecule_end_date": "2024-07-05",
+      "actual_start_date": "2024-07-20",
+      "description": "This is a 2nd level order",
+      "status": "",
+      "dependencies": [
+        {
+          "order_number": 28632,
+          "schecule_start_date": "2024-05-27",
+          "schecule_end_date": "2024-09-09",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "in_progress"
+        },
+        {
+          "order_number": 83622,
+          "schecule_start_date": "2024-04-22",
+          "schecule_end_date": "2024-10-23",
+          "actual_start_date": "2024-01-31",
+          "description": "This is a 3rd level order",
+          "status": "pending"
+        },
+        {
+          "order_number": 38414,
+          "schecule_start_date": "2024-01-15",
+          "schecule_end_date": "2024-11-27",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "pending"
+        },
+        {
+          "order_number": 55963,
+          "schecule_start_date": "2024-03-22",
+          "schecule_end_date": "2024-11-22",
+          "actual_start_date": "2024-06-19",
+          "description": "This is a 3rd level order",
+          "status": "in_progress"
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 913,
+      "resource_name": "Reliable Transport",
+      "resource_type": "Assembly shop",
+      "resource_quantity": 16,
+      "resource_unit": "batch"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "order_number": 80019,
+  "schecule_start_date": "2024-02-11",
+  "schecule_end_date": "2024-12-25",
+  "actual_start_date": "2024-07-21",
+  "description": "This is a 1st level order",
+  "status": "unexecutable",
+  "dependencies": [
+    {
+      "order_number": 81458,
+      "schecule_start_date": "2024-04-03",
+      "schecule_end_date": "2024-09-08",
+      "actual_start_date": "2024-04-06",
+      "description": "This is a 2nd level order",
+      "status": "completed"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 753,
+      "resource_name": "Industrial Solutions",
+      "resource_type": "Fab shop",
+      "resource_quantity": 24,
+      "resource_unit": "day"
+    },
+    {
+      "resource_id": 638,
+      "resource_name": "PackRight Solutions",
+      "resource_type": "Quality Control",
+      "resource_quantity": 8,
+      "resource_unit": "piece"
+    },
+    {
+      "resource_id": 274,
+      "resource_name": "Precision Paint Works",
+      "resource_type": "Packaging",
+      "resource_quantity": 23,
+      "resource_unit": "piece"
+    },
+    {
+      "resource_id": 735,
+      "resource_name": "Quality First Labs",
+      "resource_type": "Paint shop",
+      "resource_quantity": 15,
+      "resource_unit": "piece"
+    },
+    {
+      "resource_id": 239,
+      "resource_name": "Premier Assembly",
+      "resource_type": "Assembly shop",
+      "resource_quantity": 24,
+      "resource_unit": "hour"
+    }
+  ]
+}

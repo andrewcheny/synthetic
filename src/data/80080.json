@@ -1,0 +1,78 @@
+{
+  "order_number": 80080,
+  "schecule_start_date": "2024-03-10",
+  "schecule_end_date": "2024-10-13",
+  "actual_start_date": "2024-02-01",
+  "description": "This is a 1st level order",
+  "status": "pending",
+  "dependencies": [
+    {
+      "order_number": 50415,
+      "schecule_start_date": "2024-04-02",
+      "schecule_end_date": "2024-09-10",
+      "actual_start_date": "2024-06-08",
+      "description": "This is a 2nd level order",
+      "status": "completed",
+      "actual_end_date": "2024-12-19"
+    },
+    {
+      "order_number": 17287,
+      "schecule_start_date": "2024-05-31",
+      "schecule_end_date": "2024-09-23",
+      "actual_start_date": "2024-09-16",
+      "description": "This is a 2nd level order",
+      "status": "in_progress",
+      "dependencies": [
+        {
+          "order_number": 77264,
+          "schecule_start_date": "2024-05-07",
+          "schecule_end_date": "2024-07-09",
+          "actual_start_date": "2024-05-01",
+          "description": "This is a 3rd level order",
+          "status": "Started",
+          "actual_end_date": "2024-08-10"
+        },
+        {
+          "order_number": 25524,
+          "schecule_start_date": "2024-04-22",
+          "schecule_end_date": "2024-12-12",
+          "actual_start_date": "2024-10-01",
+          "description": "This is a 3rd level order",
+          "status": "Started"
+        },
+        {
+          "order_number": 30872,
+          "schecule_start_date": "2024-01-28",
+          "schecule_end_date": "2024-06-12",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "in_progress"
+        },
+        {
+          "order_number": 67222,
+          "schecule_start_date": "2024-05-05",
+          "schecule_end_date": "2024-06-25",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "Started"
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 608,
+      "resource_name": "Precision Paint Works",
+      "resource_type": "Paint shop",
+      "resource_quantity": 14,
+      "resource_unit": "hour"
+    },
+    {
+      "resource_id": 409,
+      "resource_name": "Industrial Solutions",
+      "resource_type": "Assembly shop",
+      "resource_quantity": 9,
+      "resource_unit": "day"
+    }
+  ]
+}

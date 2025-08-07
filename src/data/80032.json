@@ -1,0 +1,73 @@
+{
+  "order_number": 80032,
+  "schecule_start_date": "2024-02-04",
+  "schecule_end_date": "2024-09-20",
+  "actual_start_date": "",
+  "description": "This is a 1st level order",
+  "status": "",
+  "dependencies": [
+    {
+      "order_number": 22450,
+      "schecule_start_date": "2024-02-05",
+      "schecule_end_date": "2024-07-20",
+      "actual_start_date": "2024-04-25",
+      "description": "This is a 2nd level order",
+      "status": "completed"
+    },
+    {
+      "order_number": 56626,
+      "schecule_start_date": "2024-04-10",
+      "schecule_end_date": "2024-11-17",
+      "actual_start_date": "2024-01-23",
+      "description": "This is a 2nd level order",
+      "status": "Started",
+      "actual_end_date": "2024-06-07"
+    },
+    {
+      "order_number": 82029,
+      "schecule_start_date": "2024-04-26",
+      "schecule_end_date": "2024-07-04",
+      "actual_start_date": "",
+      "description": "This is a 2nd level order",
+      "status": "completed"
+    },
+    {
+      "order_number": 43966,
+      "schecule_start_date": "2024-04-23",
+      "schecule_end_date": "2024-09-09",
+      "actual_start_date": "2024-06-17",
+      "description": "This is a 2nd level order",
+      "status": "completed"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 474,
+      "resource_name": "Advanced Manufacturing",
+      "resource_type": "Fab shop",
+      "resource_quantity": 15,
+      "resource_unit": "piece"
+    },
+    {
+      "resource_id": 882,
+      "resource_name": "Superior Fab",
+      "resource_type": "Shipping",
+      "resource_quantity": 25,
+      "resource_unit": "batch"
+    },
+    {
+      "resource_id": 689,
+      "resource_name": "FastShip Logistics",
+      "resource_type": "Packaging",
+      "resource_quantity": 25,
+      "resource_unit": "hour"
+    },
+    {
+      "resource_id": 578,
+      "resource_name": "Quick Pack Pro",
+      "resource_type": "Quality Control",
+      "resource_quantity": 3,
+      "resource_unit": "day"
+    }
+  ]
+}

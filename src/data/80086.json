@@ -1,0 +1,134 @@
+{
+  "order_number": 80086,
+  "schecule_start_date": "2024-01-23",
+  "schecule_end_date": "2024-11-06",
+  "actual_start_date": "",
+  "description": "This is a 1st level order",
+  "status": "unexecutable",
+  "dependencies": [
+    {
+      "order_number": 81458,
+      "schecule_start_date": "2024-04-03",
+      "schecule_end_date": "2024-09-08",
+      "actual_start_date": "2024-04-06",
+      "description": "This is a 2nd level order",
+      "status": "completed"
+    },
+    {
+      "order_number": 41487,
+      "schecule_start_date": "2024-02-25",
+      "schecule_end_date": "2024-10-19",
+      "actual_start_date": "2024-09-16",
+      "description": "This is a 2nd level order",
+      "status": "unexecutable",
+      "dependencies": [
+        {
+          "order_number": 91021,
+          "schecule_start_date": "2024-04-21",
+          "schecule_end_date": "2024-06-06",
+          "actual_start_date": "2024-06-07",
+          "description": "This is a 3rd level order",
+          "status": "pending"
+        },
+        {
+          "order_number": 89017,
+          "schecule_start_date": "2024-04-08",
+          "schecule_end_date": "2024-09-12",
+          "actual_start_date": "2024-06-05",
+          "description": "This is a 3rd level order",
+          "status": "Started",
+          "actual_end_date": "2024-12-30"
+        }
+      ]
+    },
+    {
+      "order_number": 90460,
+      "schecule_start_date": "2024-03-29",
+      "schecule_end_date": "2024-08-07",
+      "actual_start_date": "2024-05-28",
+      "description": "This is a 2nd level order",
+      "status": "unexecutable"
+    },
+    {
+      "order_number": 13675,
+      "schecule_start_date": "2024-02-29",
+      "schecule_end_date": "2024-07-24",
+      "actual_start_date": "2024-06-16",
+      "description": "This is a 2nd level order",
+      "status": "completed",
+      "actual_end_date": "2024-10-14",
+      "dependencies": [
+        {
+          "order_number": 26660,
+          "schecule_start_date": "2024-05-21",
+          "schecule_end_date": "2024-07-08",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "Started"
+        },
+        {
+          "order_number": 48344,
+          "schecule_start_date": "2024-01-24",
+          "schecule_end_date": "2024-10-12",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": ""
+        },
+        {
+          "order_number": 23111,
+          "schecule_start_date": "2024-04-19",
+          "schecule_end_date": "2024-06-07",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "unexecutable"
+        },
+        {
+          "order_number": 51882,
+          "schecule_start_date": "2024-02-06",
+          "schecule_end_date": "2024-11-05",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "order_number": 63902,
+      "schecule_start_date": "2024-01-16",
+      "schecule_end_date": "2024-06-20",
+      "actual_start_date": "2024-09-17",
+      "description": "This is a 2nd level order",
+      "status": "pending"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 129,
+      "resource_name": "Precision Paint Works",
+      "resource_type": "Packaging",
+      "resource_quantity": 12,
+      "resource_unit": "batch"
+    },
+    {
+      "resource_id": 420,
+      "resource_name": "Superior Fab",
+      "resource_type": "Shipping",
+      "resource_quantity": 11,
+      "resource_unit": "batch"
+    },
+    {
+      "resource_id": 509,
+      "resource_name": "Prime Fabrication",
+      "resource_type": "Packaging",
+      "resource_quantity": 15,
+      "resource_unit": "day"
+    },
+    {
+      "resource_id": 800,
+      "resource_name": "Industrial Solutions",
+      "resource_type": "Fab shop",
+      "resource_quantity": 17,
+      "resource_unit": "hour"
+    }
+  ]
+}

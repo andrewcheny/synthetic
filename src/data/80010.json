@@ -1,0 +1,44 @@
+{
+  "order_number": 80010,
+  "schecule_start_date": "2024-01-22",
+  "schecule_end_date": "2024-09-29",
+  "actual_start_date": "",
+  "description": "This is a 1st level order",
+  "status": "completed",
+  "dependencies": [
+    {
+      "order_number": 92793,
+      "schecule_start_date": "2024-01-06",
+      "schecule_end_date": "2024-06-22",
+      "actual_start_date": "2024-04-05",
+      "description": "This is a 2nd level order",
+      "status": "Started",
+      "actual_end_date": "2024-06-18"
+    },
+    {
+      "order_number": 22388,
+      "schecule_start_date": "2024-01-07",
+      "schecule_end_date": "2024-09-02",
+      "actual_start_date": "2024-01-30",
+      "description": "This is a 2nd level order",
+      "status": "completed"
+    },
+    {
+      "order_number": 54275,
+      "schecule_start_date": "2024-01-28",
+      "schecule_end_date": "2024-12-30",
+      "actual_start_date": "2024-06-19",
+      "description": "This is a 2nd level order",
+      "status": "unexecutable"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 29,
+      "resource_name": "Superior Fab",
+      "resource_type": "Shipping",
+      "resource_quantity": 24,
+      "resource_unit": "batch"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "order_number": 80022,
+  "schecule_start_date": "2024-03-23",
+  "schecule_end_date": "2024-08-27",
+  "actual_start_date": "",
+  "description": "This is a 1st level order",
+  "status": "completed",
+  "dependencies": [
+    {
+      "order_number": 50415,
+      "schecule_start_date": "2024-04-02",
+      "schecule_end_date": "2024-09-10",
+      "actual_start_date": "2024-06-08",
+      "description": "This is a 2nd level order",
+      "status": "completed",
+      "actual_end_date": "2024-12-19"
+    },
+    {
+      "order_number": 78284,
+      "schecule_start_date": "2024-05-13",
+      "schecule_end_date": "2024-10-24",
+      "actual_start_date": "2024-05-31",
+      "description": "This is a 2nd level order",
+      "status": "unexecutable"
+    },
+    {
+      "order_number": 22450,
+      "schecule_start_date": "2024-02-05",
+      "schecule_end_date": "2024-07-20",
+      "actual_start_date": "2024-04-25",
+      "description": "This is a 2nd level order",
+      "status": "completed"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 693,
+      "resource_name": "Global Logistics",
+      "resource_type": "Shipping",
+      "resource_quantity": 16,
+      "resource_unit": "piece"
+    }
+  ]
+}

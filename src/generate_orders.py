@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 from typing import List, Dict, Any
 
 # Target directory
-TARGET_DIR = r"C:\Users\HQSACTCHENYanCTR-AI\OneDrive - NATO Public Cloud\Documents\spectrum\synthetic_data"
+TARGET_DIR = r"data"
 
 def create_directory():
     """Create target directory if it doesn't exist"""

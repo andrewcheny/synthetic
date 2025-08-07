@@ -1,0 +1,84 @@
+{
+  "order_number": 80023,
+  "schecule_start_date": "2024-02-16",
+  "schecule_end_date": "2024-10-06",
+  "actual_start_date": "",
+  "description": "This is a 1st level order",
+  "status": "pending",
+  "dependencies": [
+    {
+      "order_number": 26033,
+      "schecule_start_date": "2024-01-14",
+      "schecule_end_date": "2024-10-16",
+      "actual_start_date": "2024-09-10",
+      "description": "This is a 2nd level order",
+      "status": "completed",
+      "actual_end_date": "2024-10-17"
+    },
+    {
+      "order_number": 33717,
+      "schecule_start_date": "2024-01-04",
+      "schecule_end_date": "2024-11-07",
+      "actual_start_date": "2024-03-28",
+      "description": "This is a 2nd level order",
+      "status": "pending",
+      "dependencies": [
+        {
+          "order_number": 43639,
+          "schecule_start_date": "2024-01-29",
+          "schecule_end_date": "2024-12-27",
+          "actual_start_date": "2024-01-18",
+          "description": "This is a 3rd level order",
+          "status": "Started",
+          "actual_end_date": "2024-11-10"
+        },
+        {
+          "order_number": 83176,
+          "schecule_start_date": "2024-02-14",
+          "schecule_end_date": "2024-11-18",
+          "actual_start_date": "2024-08-01",
+          "description": "This is a 3rd level order",
+          "status": "pending"
+        },
+        {
+          "order_number": 49933,
+          "schecule_start_date": "2024-02-27",
+          "schecule_end_date": "2024-10-13",
+          "actual_start_date": "2024-09-20",
+          "description": "This is a 3rd level order",
+          "status": "completed"
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 289,
+      "resource_name": "PackRight Solutions",
+      "resource_type": "Paint shop",
+      "resource_quantity": 5,
+      "resource_unit": "batch"
+    },
+    {
+      "resource_id": 343,
+      "resource_name": "Prime Fabrication",
+      "resource_type": "Quality Control",
+      "resource_quantity": 13,
+      "resource_unit": "hour"
+    },
+    {
+      "resource_id": 500,
+      "resource_name": "Reliable Transport",
+      "resource_type": "Quality Control",
+      "resource_quantity": 6,
+      "resource_unit": "piece"
+    },
+    {
+      "resource_id": 631,
+      "resource_name": "Reliable Transport",
+      "resource_type": "Packaging",
+      "resource_quantity": 6,
+      "resource_unit": "day"
+    }
+  ]
+}

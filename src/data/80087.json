@@ -1,0 +1,86 @@
+{
+  "order_number": 80087,
+  "schecule_start_date": "2024-02-15",
+  "schecule_end_date": "2024-09-28",
+  "actual_start_date": "",
+  "description": "This is a 1st level order",
+  "status": "in_progress",
+  "dependencies": [
+    {
+      "order_number": 88790,
+      "schecule_start_date": "2024-05-29",
+      "schecule_end_date": "2024-09-11",
+      "actual_start_date": "2024-07-11",
+      "description": "This is a 2nd level order",
+      "status": "",
+      "dependencies": [
+        {
+          "order_number": 97901,
+          "schecule_start_date": "2024-01-16",
+          "schecule_end_date": "2024-06-24",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "unexecutable"
+        },
+        {
+          "order_number": 11946,
+          "schecule_start_date": "2024-01-11",
+          "schecule_end_date": "2024-07-06",
+          "actual_start_date": "2024-09-18",
+          "description": "This is a 3rd level order",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "order_number": 22388,
+      "schecule_start_date": "2024-01-07",
+      "schecule_end_date": "2024-09-02",
+      "actual_start_date": "2024-01-30",
+      "description": "This is a 2nd level order",
+      "status": "completed"
+    },
+    {
+      "order_number": 88790,
+      "schecule_start_date": "2024-05-29",
+      "schecule_end_date": "2024-09-11",
+      "actual_start_date": "2024-07-11",
+      "description": "This is a 2nd level order",
+      "status": "",
+      "dependencies": [
+        {
+          "order_number": 97901,
+          "schecule_start_date": "2024-01-16",
+          "schecule_end_date": "2024-06-24",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "unexecutable"
+        },
+        {
+          "order_number": 11946,
+          "schecule_start_date": "2024-01-11",
+          "schecule_end_date": "2024-07-06",
+          "actual_start_date": "2024-09-18",
+          "description": "This is a 3rd level order",
+          "status": "pending"
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 947,
+      "resource_name": "TechPak Industries",
+      "resource_type": "Paint shop",
+      "resource_quantity": 14,
+      "resource_unit": "piece"
+    },
+    {
+      "resource_id": 325,
+      "resource_name": "Metro Paint Center",
+      "resource_type": "Packaging",
+      "resource_quantity": 25,
+      "resource_unit": "batch"
+    }
+  ]
+}

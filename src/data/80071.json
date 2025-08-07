@@ -1,0 +1,69 @@
+{
+  "order_number": 80071,
+  "schecule_start_date": "2024-03-29",
+  "schecule_end_date": "2024-09-10",
+  "actual_start_date": "2024-01-05",
+  "description": "This is a 1st level order",
+  "status": "pending",
+  "dependencies": [
+    {
+      "order_number": 13675,
+      "schecule_start_date": "2024-02-29",
+      "schecule_end_date": "2024-07-24",
+      "actual_start_date": "2024-06-16",
+      "description": "This is a 2nd level order",
+      "status": "completed",
+      "actual_end_date": "2024-10-14",
+      "dependencies": [
+        {
+          "order_number": 26660,
+          "schecule_start_date": "2024-05-21",
+          "schecule_end_date": "2024-07-08",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "Started"
+        },
+        {
+          "order_number": 48344,
+          "schecule_start_date": "2024-01-24",
+          "schecule_end_date": "2024-10-12",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": ""
+        },
+        {
+          "order_number": 23111,
+          "schecule_start_date": "2024-04-19",
+          "schecule_end_date": "2024-06-07",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "unexecutable"
+        },
+        {
+          "order_number": 51882,
+          "schecule_start_date": "2024-02-06",
+          "schecule_end_date": "2024-11-05",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "pending"
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 851,
+      "resource_name": "Precision Paint Works",
+      "resource_type": "Quality Control",
+      "resource_quantity": 22,
+      "resource_unit": "batch"
+    },
+    {
+      "resource_id": 949,
+      "resource_name": "Global Logistics",
+      "resource_type": "Shipping",
+      "resource_quantity": 1,
+      "resource_unit": "day"
+    }
+  ]
+}

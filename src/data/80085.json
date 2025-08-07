@@ -1,0 +1,69 @@
+{
+  "order_number": 80085,
+  "schecule_start_date": "2024-01-06",
+  "schecule_end_date": "2024-08-26",
+  "actual_start_date": "2024-01-23",
+  "description": "This is a 1st level order",
+  "status": "Started",
+  "dependencies": [
+    {
+      "order_number": 21058,
+      "schecule_start_date": "2024-05-20",
+      "schecule_end_date": "2024-08-14",
+      "actual_start_date": "2024-03-24",
+      "description": "This is a 2nd level order",
+      "status": "completed",
+      "actual_end_date": "2024-05-05",
+      "dependencies": [
+        {
+          "order_number": 47184,
+          "schecule_start_date": "2024-05-27",
+          "schecule_end_date": "2024-07-27",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "completed"
+        },
+        {
+          "order_number": 91694,
+          "schecule_start_date": "2024-01-26",
+          "schecule_end_date": "2024-09-06",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "in_progress"
+        },
+        {
+          "order_number": 93129,
+          "schecule_start_date": "2024-04-29",
+          "schecule_end_date": "2024-06-01",
+          "actual_start_date": "2024-06-03",
+          "description": "This is a 3rd level order",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "order_number": 63902,
+      "schecule_start_date": "2024-01-16",
+      "schecule_end_date": "2024-06-20",
+      "actual_start_date": "2024-09-17",
+      "description": "This is a 2nd level order",
+      "status": "pending"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 445,
+      "resource_name": "Quality First Labs",
+      "resource_type": "Shipping",
+      "resource_quantity": 14,
+      "resource_unit": "batch"
+    },
+    {
+      "resource_id": 696,
+      "resource_name": "Reliable Transport",
+      "resource_type": "Shipping",
+      "resource_quantity": 5,
+      "resource_unit": "batch"
+    }
+  ]
+}

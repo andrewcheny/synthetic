@@ -1,0 +1,75 @@
+{
+  "order_number": 80042,
+  "schecule_start_date": "2024-02-13",
+  "schecule_end_date": "2024-09-11",
+  "actual_start_date": "",
+  "description": "This is a 1st level order",
+  "status": "",
+  "dependencies": [
+    {
+      "order_number": 96737,
+      "schecule_start_date": "2024-05-22",
+      "schecule_end_date": "2024-11-16",
+      "actual_start_date": "2024-04-04",
+      "description": "This is a 2nd level order",
+      "status": "pending"
+    },
+    {
+      "order_number": 89615,
+      "schecule_start_date": "2024-01-15",
+      "schecule_end_date": "2024-06-03",
+      "actual_start_date": "",
+      "description": "This is a 2nd level order",
+      "status": "pending",
+      "dependencies": [
+        {
+          "order_number": 23770,
+          "schecule_start_date": "2024-03-06",
+          "schecule_end_date": "2024-12-31",
+          "actual_start_date": "2024-04-05",
+          "description": "This is a 3rd level order",
+          "status": "completed",
+          "actual_end_date": "2024-09-28"
+        },
+        {
+          "order_number": 11585,
+          "schecule_start_date": "2024-04-06",
+          "schecule_end_date": "2024-08-09",
+          "actual_start_date": "2024-06-25",
+          "description": "This is a 3rd level order",
+          "status": "in_progress"
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 173,
+      "resource_name": "Industrial Coating Co",
+      "resource_type": "Fab shop",
+      "resource_quantity": 25,
+      "resource_unit": "hour"
+    },
+    {
+      "resource_id": 614,
+      "resource_name": "Quality First Labs",
+      "resource_type": "Fab shop",
+      "resource_quantity": 17,
+      "resource_unit": "day"
+    },
+    {
+      "resource_id": 291,
+      "resource_name": "Quick Pack Pro",
+      "resource_type": "Assembly shop",
+      "resource_quantity": 1,
+      "resource_unit": "piece"
+    },
+    {
+      "resource_id": 53,
+      "resource_name": "TechPak Industries",
+      "resource_type": "Fab shop",
+      "resource_quantity": 25,
+      "resource_unit": "piece"
+    }
+  ]
+}

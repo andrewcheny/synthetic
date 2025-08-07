@@ -1,0 +1,85 @@
+{
+  "order_number": 80081,
+  "schecule_start_date": "2024-01-23",
+  "schecule_end_date": "2024-08-25",
+  "actual_start_date": "2024-04-15",
+  "description": "This is a 1st level order",
+  "status": "unexecutable",
+  "dependencies": [
+    {
+      "order_number": 69661,
+      "schecule_start_date": "2024-03-31",
+      "schecule_end_date": "2024-11-02",
+      "actual_start_date": "2024-06-17",
+      "description": "This is a 2nd level order",
+      "status": "pending",
+      "dependencies": [
+        {
+          "order_number": 19887,
+          "schecule_start_date": "2024-01-17",
+          "schecule_end_date": "2024-09-30",
+          "actual_start_date": "2024-06-04",
+          "description": "This is a 3rd level order",
+          "status": "completed",
+          "actual_end_date": "2024-06-12"
+        }
+      ]
+    },
+    {
+      "order_number": 38584,
+      "schecule_start_date": "2024-02-26",
+      "schecule_end_date": "2024-08-10",
+      "actual_start_date": "2024-04-28",
+      "description": "This is a 2nd level order",
+      "status": "Started",
+      "actual_end_date": "2024-12-30"
+    },
+    {
+      "order_number": 12950,
+      "schecule_start_date": "2024-04-03",
+      "schecule_end_date": "2024-11-01",
+      "actual_start_date": "",
+      "description": "This is a 2nd level order",
+      "status": "unexecutable"
+    },
+    {
+      "order_number": 18704,
+      "schecule_start_date": "2024-05-31",
+      "schecule_end_date": "2024-10-24",
+      "actual_start_date": "2024-06-11",
+      "description": "This is a 2nd level order",
+      "status": "unexecutable"
+    },
+    {
+      "order_number": 86185,
+      "schecule_start_date": "2024-05-30",
+      "schecule_end_date": "2024-11-03",
+      "actual_start_date": "",
+      "description": "This is a 2nd level order",
+      "status": "pending"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 586,
+      "resource_name": "Precision Assembly",
+      "resource_type": "Paint shop",
+      "resource_quantity": 14,
+      "resource_unit": "day"
+    },
+    {
+      "resource_id": 952,
+      "resource_name": "Global Logistics",
+      "resource_type": "Shipping",
+      "resource_quantity": 22,
+      "resource_unit": "piece"
+    },
+    {
+      "resource_id": 933,
+      "resource_name": "Quality First Labs",
+      "resource_type": "Fab shop",
+      "resource_quantity": 19,
+      "resource_unit": "day"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "order_number": 80028,
+  "schecule_start_date": "2024-02-20",
+  "schecule_end_date": "2024-09-26",
+  "actual_start_date": "",
+  "description": "This is a 1st level order",
+  "status": "in_progress",
+  "dependencies": [
+    {
+      "order_number": 84744,
+      "schecule_start_date": "2024-02-28",
+      "schecule_end_date": "2024-09-13",
+      "actual_start_date": "",
+      "description": "This is a 2nd level order",
+      "status": "in_progress"
+    },
+    {
+      "order_number": 22450,
+      "schecule_start_date": "2024-02-05",
+      "schecule_end_date": "2024-07-20",
+      "actual_start_date": "2024-04-25",
+      "description": "This is a 2nd level order",
+      "status": "completed"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 862,
+      "resource_name": "Premier Assembly",
+      "resource_type": "Paint shop",
+      "resource_quantity": 11,
+      "resource_unit": "batch"
+    },
+    {
+      "resource_id": 6,
+      "resource_name": "Superior Fab",
+      "resource_type": "Assembly shop",
+      "resource_quantity": 19,
+      "resource_unit": "hour"
+    },
+    {
+      "resource_id": 317,
+      "resource_name": "TechPak Industries",
+      "resource_type": "Packaging",
+      "resource_quantity": 16,
+      "resource_unit": "day"
+    },
+    {
+      "resource_id": 985,
+      "resource_name": "FastShip Logistics",
+      "resource_type": "Paint shop",
+      "resource_quantity": 16,
+      "resource_unit": "piece"
+    }
+  ]
+}

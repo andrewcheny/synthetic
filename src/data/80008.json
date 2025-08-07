@@ -1,0 +1,59 @@
+{
+  "order_number": 80008,
+  "schecule_start_date": "2024-02-26",
+  "schecule_end_date": "2024-09-22",
+  "actual_start_date": "2024-06-28",
+  "description": "This is a 1st level order",
+  "status": "unexecutable",
+  "dependencies": [
+    {
+      "order_number": 10296,
+      "schecule_start_date": "2024-02-05",
+      "schecule_end_date": "2024-12-06",
+      "actual_start_date": "2024-06-25",
+      "description": "This is a 2nd level order",
+      "status": "completed"
+    },
+    {
+      "order_number": 90460,
+      "schecule_start_date": "2024-03-29",
+      "schecule_end_date": "2024-08-07",
+      "actual_start_date": "2024-05-28",
+      "description": "This is a 2nd level order",
+      "status": "unexecutable"
+    },
+    {
+      "order_number": 52934,
+      "schecule_start_date": "2024-03-30",
+      "schecule_end_date": "2024-06-19",
+      "actual_start_date": "",
+      "description": "This is a 2nd level order",
+      "status": "Started"
+    },
+    {
+      "order_number": 65676,
+      "schecule_start_date": "2024-01-15",
+      "schecule_end_date": "2024-10-24",
+      "actual_start_date": "2024-06-20",
+      "description": "This is a 2nd level order",
+      "status": "Started",
+      "actual_end_date": "2024-10-16"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 866,
+      "resource_name": "Apex Manufacturing",
+      "resource_type": "Quality Control",
+      "resource_quantity": 2,
+      "resource_unit": "batch"
+    },
+    {
+      "resource_id": 604,
+      "resource_name": "Custom Metal Works",
+      "resource_type": "Paint shop",
+      "resource_quantity": 1,
+      "resource_unit": "hour"
+    }
+  ]
+}

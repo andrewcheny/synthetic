@@ -1,0 +1,91 @@
+{
+  "order_number": 80063,
+  "schecule_start_date": "2024-01-15",
+  "schecule_end_date": "2024-10-15",
+  "actual_start_date": "2024-06-23",
+  "description": "This is a 1st level order",
+  "status": "in_progress",
+  "dependencies": [
+    {
+      "order_number": 88866,
+      "schecule_start_date": "2024-02-26",
+      "schecule_end_date": "2024-06-18",
+      "actual_start_date": "",
+      "description": "This is a 2nd level order",
+      "status": "Started"
+    },
+    {
+      "order_number": 31722,
+      "schecule_start_date": "2024-02-14",
+      "schecule_end_date": "2024-09-22",
+      "actual_start_date": "",
+      "description": "This is a 2nd level order",
+      "status": "completed",
+      "dependencies": [
+        {
+          "order_number": 30297,
+          "schecule_start_date": "2024-05-25",
+          "schecule_end_date": "2024-06-17",
+          "actual_start_date": "2024-05-04",
+          "description": "This is a 3rd level order",
+          "status": ""
+        },
+        {
+          "order_number": 15975,
+          "schecule_start_date": "2024-05-10",
+          "schecule_end_date": "2024-09-09",
+          "actual_start_date": "2024-09-26",
+          "description": "This is a 3rd level order",
+          "status": "Started",
+          "actual_end_date": "2024-11-07"
+        },
+        {
+          "order_number": 88290,
+          "schecule_start_date": "2024-05-12",
+          "schecule_end_date": "2024-10-27",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "pending"
+        },
+        {
+          "order_number": 43649,
+          "schecule_start_date": "2024-05-11",
+          "schecule_end_date": "2024-08-21",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "in_progress"
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 955,
+      "resource_name": "FastShip Logistics",
+      "resource_type": "Assembly shop",
+      "resource_quantity": 5,
+      "resource_unit": "hour"
+    },
+    {
+      "resource_id": 868,
+      "resource_name": "Superior Fab",
+      "resource_type": "Fab shop",
+      "resource_quantity": 17,
+      "resource_unit": "day"
+    },
+    {
+      "resource_id": 869,
+      "resource_name": "Apex Manufacturing",
+      "resource_type": "Paint shop",
+      "resource_quantity": 2,
+      "resource_unit": "batch"
+    },
+    {
+      "resource_id": 907,
+      "resource_name": "Apex Manufacturing",
+      "resource_type": "Shipping",
+      "resource_quantity": 15,
+      "resource_unit": "batch"
+    }
+  ]
+}

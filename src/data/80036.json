@@ -1,0 +1,27 @@
+{
+  "order_number": 80036,
+  "schecule_start_date": "2024-01-08",
+  "schecule_end_date": "2024-12-13",
+  "actual_start_date": "2024-08-28",
+  "description": "This is a 1st level order",
+  "status": "completed",
+  "dependencies": [
+    {
+      "order_number": 82572,
+      "schecule_start_date": "2024-02-16",
+      "schecule_end_date": "2024-12-15",
+      "actual_start_date": "2024-01-28",
+      "description": "This is a 2nd level order",
+      "status": "completed"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 724,
+      "resource_name": "Prime Fabrication",
+      "resource_type": "Quality Control",
+      "resource_quantity": 6,
+      "resource_unit": "hour"
+    }
+  ]
+}

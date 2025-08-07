@@ -1,0 +1,50 @@
+{
+  "order_number": 80043,
+  "schecule_start_date": "2024-03-21",
+  "schecule_end_date": "2024-10-22",
+  "actual_start_date": "2024-01-05",
+  "description": "This is a 1st level order",
+  "status": "",
+  "dependencies": [
+    {
+      "order_number": 56626,
+      "schecule_start_date": "2024-04-10",
+      "schecule_end_date": "2024-11-17",
+      "actual_start_date": "2024-01-23",
+      "description": "This is a 2nd level order",
+      "status": "Started",
+      "actual_end_date": "2024-06-07"
+    },
+    {
+      "order_number": 84744,
+      "schecule_start_date": "2024-02-28",
+      "schecule_end_date": "2024-09-13",
+      "actual_start_date": "",
+      "description": "This is a 2nd level order",
+      "status": "in_progress"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 408,
+      "resource_name": "Precision Paint Works",
+      "resource_type": "Quality Control",
+      "resource_quantity": 1,
+      "resource_unit": "batch"
+    },
+    {
+      "resource_id": 941,
+      "resource_name": "Elite Finishing",
+      "resource_type": "Packaging",
+      "resource_quantity": 23,
+      "resource_unit": "batch"
+    },
+    {
+      "resource_id": 288,
+      "resource_name": "Industrial Solutions",
+      "resource_type": "Quality Control",
+      "resource_quantity": 9,
+      "resource_unit": "day"
+    }
+  ]
+}

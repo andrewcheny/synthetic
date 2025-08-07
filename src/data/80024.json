@@ -1,0 +1,45 @@
+{
+  "order_number": 80024,
+  "schecule_start_date": "2024-02-26",
+  "schecule_end_date": "2024-11-26",
+  "actual_start_date": "",
+  "description": "This is a 1st level order",
+  "status": "in_progress",
+  "dependencies": [
+    {
+      "order_number": 75064,
+      "schecule_start_date": "2024-05-24",
+      "schecule_end_date": "2024-07-29",
+      "actual_start_date": "2024-05-03",
+      "description": "This is a 2nd level order",
+      "status": "",
+      "dependencies": [
+        {
+          "order_number": 39309,
+          "schecule_start_date": "2024-03-18",
+          "schecule_end_date": "2024-10-11",
+          "actual_start_date": "2024-08-06",
+          "description": "This is a 3rd level order",
+          "status": "completed"
+        },
+        {
+          "order_number": 43351,
+          "schecule_start_date": "2024-04-30",
+          "schecule_end_date": "2024-07-11",
+          "actual_start_date": "2024-02-03",
+          "description": "This is a 3rd level order",
+          "status": ""
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 476,
+      "resource_name": "Industrial Solutions",
+      "resource_type": "Paint shop",
+      "resource_quantity": 20,
+      "resource_unit": "batch"
+    }
+  ]
+}

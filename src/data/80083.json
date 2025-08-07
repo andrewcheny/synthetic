@@ -1,0 +1,36 @@
+{
+  "order_number": 80083,
+  "schecule_start_date": "2024-03-09",
+  "schecule_end_date": "2024-09-21",
+  "actual_start_date": "2024-04-02",
+  "description": "This is a 1st level order",
+  "status": "pending",
+  "dependencies": [
+    {
+      "order_number": 81514,
+      "schecule_start_date": "2024-02-26",
+      "schecule_end_date": "2024-11-26",
+      "actual_start_date": "2024-06-03",
+      "description": "This is a 2nd level order",
+      "status": "completed",
+      "actual_end_date": "2024-07-04"
+    },
+    {
+      "order_number": 88866,
+      "schecule_start_date": "2024-02-26",
+      "schecule_end_date": "2024-06-18",
+      "actual_start_date": "",
+      "description": "This is a 2nd level order",
+      "status": "Started"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 739,
+      "resource_name": "Precision Paint Works",
+      "resource_type": "Assembly shop",
+      "resource_quantity": 17,
+      "resource_unit": "hour"
+    }
+  ]
+}

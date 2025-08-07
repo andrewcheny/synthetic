@@ -1,0 +1,41 @@
+{
+  "order_number": 80055,
+  "schecule_start_date": "2024-01-26",
+  "schecule_end_date": "2024-09-01",
+  "actual_start_date": "2024-01-02",
+  "description": "This is a 1st level order",
+  "status": "Started",
+  "dependencies": [
+    {
+      "order_number": 18703,
+      "schecule_start_date": "2024-02-10",
+      "schecule_end_date": "2024-06-25",
+      "actual_start_date": "2024-09-01",
+      "description": "This is a 2nd level order",
+      "status": "pending"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 141,
+      "resource_name": "Apex Manufacturing",
+      "resource_type": "Paint shop",
+      "resource_quantity": 21,
+      "resource_unit": "hour"
+    },
+    {
+      "resource_id": 248,
+      "resource_name": "Steel Works LLC",
+      "resource_type": "Paint shop",
+      "resource_quantity": 9,
+      "resource_unit": "hour"
+    },
+    {
+      "resource_id": 352,
+      "resource_name": "Industrial Coating Co",
+      "resource_type": "Shipping",
+      "resource_quantity": 5,
+      "resource_unit": "batch"
+    }
+  ]
+}

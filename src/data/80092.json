@@ -1,0 +1,57 @@
+{
+  "order_number": 80092,
+  "schecule_start_date": "2024-01-24",
+  "schecule_end_date": "2024-08-30",
+  "actual_start_date": "2024-02-19",
+  "description": "This is a 1st level order",
+  "status": "in_progress",
+  "dependencies": [
+    {
+      "order_number": 33157,
+      "schecule_start_date": "2024-04-03",
+      "schecule_end_date": "2024-12-08",
+      "actual_start_date": "2024-07-15",
+      "description": "This is a 2nd level order",
+      "status": ""
+    },
+    {
+      "order_number": 56626,
+      "schecule_start_date": "2024-04-10",
+      "schecule_end_date": "2024-11-17",
+      "actual_start_date": "2024-01-23",
+      "description": "This is a 2nd level order",
+      "status": "Started",
+      "actual_end_date": "2024-06-07"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 282,
+      "resource_name": "Elite Finishing",
+      "resource_type": "Fab shop",
+      "resource_quantity": 24,
+      "resource_unit": "day"
+    },
+    {
+      "resource_id": 450,
+      "resource_name": "Premier Assembly",
+      "resource_type": "Packaging",
+      "resource_quantity": 10,
+      "resource_unit": "hour"
+    },
+    {
+      "resource_id": 258,
+      "resource_name": "Quick Pack Pro",
+      "resource_type": "Assembly shop",
+      "resource_quantity": 6,
+      "resource_unit": "batch"
+    },
+    {
+      "resource_id": 599,
+      "resource_name": "Quick Pack Pro",
+      "resource_type": "Quality Control",
+      "resource_quantity": 3,
+      "resource_unit": "batch"
+    }
+  ]
+}

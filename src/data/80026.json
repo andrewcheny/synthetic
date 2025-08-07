@@ -1,0 +1,86 @@
+{
+  "order_number": 80026,
+  "schecule_start_date": "2024-02-29",
+  "schecule_end_date": "2024-08-09",
+  "actual_start_date": "2024-08-04",
+  "description": "This is a 1st level order",
+  "status": "unexecutable",
+  "dependencies": [
+    {
+      "order_number": 52981,
+      "schecule_start_date": "2024-02-23",
+      "schecule_end_date": "2024-07-19",
+      "actual_start_date": "",
+      "description": "This is a 2nd level order",
+      "status": "pending",
+      "dependencies": [
+        {
+          "order_number": 25176,
+          "schecule_start_date": "2024-01-15",
+          "schecule_end_date": "2024-10-30",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "unexecutable"
+        },
+        {
+          "order_number": 74609,
+          "schecule_start_date": "2024-03-15",
+          "schecule_end_date": "2024-08-03",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "order_number": 24630,
+      "schecule_start_date": "2024-04-12",
+      "schecule_end_date": "2024-07-14",
+      "actual_start_date": "2024-05-26",
+      "description": "This is a 2nd level order",
+      "status": "",
+      "dependencies": [
+        {
+          "order_number": 58143,
+          "schecule_start_date": "2024-05-14",
+          "schecule_end_date": "2024-06-30",
+          "actual_start_date": "2024-05-08",
+          "description": "This is a 3rd level order",
+          "status": ""
+        }
+      ]
+    },
+    {
+      "order_number": 90524,
+      "schecule_start_date": "2024-05-29",
+      "schecule_end_date": "2024-06-05",
+      "actual_start_date": "",
+      "description": "This is a 2nd level order",
+      "status": ""
+    },
+    {
+      "order_number": 26208,
+      "schecule_start_date": "2024-01-05",
+      "schecule_end_date": "2024-06-12",
+      "actual_start_date": "",
+      "description": "This is a 2nd level order",
+      "status": "Started"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 600,
+      "resource_name": "TechPak Industries",
+      "resource_type": "Shipping",
+      "resource_quantity": 3,
+      "resource_unit": "day"
+    },
+    {
+      "resource_id": 834,
+      "resource_name": "Quality First Labs",
+      "resource_type": "Fab shop",
+      "resource_quantity": 14,
+      "resource_unit": "hour"
+    }
+  ]
+}

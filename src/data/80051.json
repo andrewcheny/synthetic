@@ -1,0 +1,137 @@
+{
+  "order_number": 80051,
+  "schecule_start_date": "2024-01-08",
+  "schecule_end_date": "2024-11-22",
+  "actual_start_date": "2024-08-04",
+  "description": "This is a 1st level order",
+  "status": "completed",
+  "dependencies": [
+    {
+      "order_number": 86563,
+      "schecule_start_date": "2024-01-10",
+      "schecule_end_date": "2024-06-25",
+      "actual_start_date": "",
+      "description": "This is a 2nd level order",
+      "status": "",
+      "dependencies": [
+        {
+          "order_number": 32008,
+          "schecule_start_date": "2024-04-22",
+          "schecule_end_date": "2024-11-29",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "Started"
+        },
+        {
+          "order_number": 59274,
+          "schecule_start_date": "2024-05-14",
+          "schecule_end_date": "2024-09-16",
+          "actual_start_date": "2024-06-22",
+          "description": "This is a 3rd level order",
+          "status": ""
+        },
+        {
+          "order_number": 84080,
+          "schecule_start_date": "2024-02-22",
+          "schecule_end_date": "2024-10-21",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": ""
+        },
+        {
+          "order_number": 58218,
+          "schecule_start_date": "2024-03-16",
+          "schecule_end_date": "2024-06-19",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "order_number": 31722,
+      "schecule_start_date": "2024-02-14",
+      "schecule_end_date": "2024-09-22",
+      "actual_start_date": "",
+      "description": "This is a 2nd level order",
+      "status": "completed",
+      "dependencies": [
+        {
+          "order_number": 30297,
+          "schecule_start_date": "2024-05-25",
+          "schecule_end_date": "2024-06-17",
+          "actual_start_date": "2024-05-04",
+          "description": "This is a 3rd level order",
+          "status": ""
+        },
+        {
+          "order_number": 15975,
+          "schecule_start_date": "2024-05-10",
+          "schecule_end_date": "2024-09-09",
+          "actual_start_date": "2024-09-26",
+          "description": "This is a 3rd level order",
+          "status": "Started",
+          "actual_end_date": "2024-11-07"
+        },
+        {
+          "order_number": 88290,
+          "schecule_start_date": "2024-05-12",
+          "schecule_end_date": "2024-10-27",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "pending"
+        },
+        {
+          "order_number": 43649,
+          "schecule_start_date": "2024-05-11",
+          "schecule_end_date": "2024-08-21",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "order_number": 69661,
+      "schecule_start_date": "2024-03-31",
+      "schecule_end_date": "2024-11-02",
+      "actual_start_date": "2024-06-17",
+      "description": "This is a 2nd level order",
+      "status": "pending",
+      "dependencies": [
+        {
+          "order_number": 19887,
+          "schecule_start_date": "2024-01-17",
+          "schecule_end_date": "2024-09-30",
+          "actual_start_date": "2024-06-04",
+          "description": "This is a 3rd level order",
+          "status": "completed",
+          "actual_end_date": "2024-06-12"
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 749,
+      "resource_name": "Steel Works LLC",
+      "resource_type": "Assembly shop",
+      "resource_quantity": 8,
+      "resource_unit": "piece"
+    },
+    {
+      "resource_id": 781,
+      "resource_name": "Industrial Coating Co",
+      "resource_type": "Paint shop",
+      "resource_quantity": 3,
+      "resource_unit": "piece"
+    },
+    {
+      "resource_id": 496,
+      "resource_name": "Premier Assembly",
+      "resource_type": "Paint shop",
+      "resource_quantity": 2,
+      "resource_unit": "hour"
+    }
+  ]
+}

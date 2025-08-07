@@ -1,0 +1,100 @@
+{
+  "order_number": 80027,
+  "schecule_start_date": "2024-03-21",
+  "schecule_end_date": "2024-10-14",
+  "actual_start_date": "2024-01-07",
+  "description": "This is a 1st level order",
+  "status": "",
+  "dependencies": [
+    {
+      "order_number": 80868,
+      "schecule_start_date": "2024-03-19",
+      "schecule_end_date": "2024-10-01",
+      "actual_start_date": "2024-06-03",
+      "description": "This is a 2nd level order",
+      "status": ""
+    },
+    {
+      "order_number": 87214,
+      "schecule_start_date": "2024-01-23",
+      "schecule_end_date": "2024-09-24",
+      "actual_start_date": "2024-01-12",
+      "description": "This is a 2nd level order",
+      "status": "Started",
+      "actual_end_date": "2024-05-12"
+    },
+    {
+      "order_number": 64666,
+      "schecule_start_date": "2024-01-03",
+      "schecule_end_date": "2024-06-09",
+      "actual_start_date": "",
+      "description": "This is a 2nd level order",
+      "status": "unexecutable",
+      "dependencies": [
+        {
+          "order_number": 32816,
+          "schecule_start_date": "2024-02-03",
+          "schecule_end_date": "2024-10-26",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "completed"
+        },
+        {
+          "order_number": 95180,
+          "schecule_start_date": "2024-04-01",
+          "schecule_end_date": "2024-06-29",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "in_progress"
+        },
+        {
+          "order_number": 91861,
+          "schecule_start_date": "2024-01-10",
+          "schecule_end_date": "2024-08-23",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "order_number": 92793,
+      "schecule_start_date": "2024-01-06",
+      "schecule_end_date": "2024-06-22",
+      "actual_start_date": "2024-04-05",
+      "description": "This is a 2nd level order",
+      "status": "Started",
+      "actual_end_date": "2024-06-18"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 445,
+      "resource_name": "Quick Pack Pro",
+      "resource_type": "Assembly shop",
+      "resource_quantity": 25,
+      "resource_unit": "day"
+    },
+    {
+      "resource_id": 173,
+      "resource_name": "Quality First Labs",
+      "resource_type": "Packaging",
+      "resource_quantity": 14,
+      "resource_unit": "hour"
+    },
+    {
+      "resource_id": 530,
+      "resource_name": "TechPak Industries",
+      "resource_type": "Assembly shop",
+      "resource_quantity": 12,
+      "resource_unit": "batch"
+    },
+    {
+      "resource_id": 246,
+      "resource_name": "Reliable Transport",
+      "resource_type": "Assembly shop",
+      "resource_quantity": 19,
+      "resource_unit": "hour"
+    }
+  ]
+}

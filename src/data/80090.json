@@ -1,0 +1,87 @@
+{
+  "order_number": 80090,
+  "schecule_start_date": "2024-03-06",
+  "schecule_end_date": "2024-12-16",
+  "actual_start_date": "2024-08-06",
+  "description": "This is a 1st level order",
+  "status": "unexecutable",
+  "dependencies": [
+    {
+      "order_number": 93795,
+      "schecule_start_date": "2024-03-29",
+      "schecule_end_date": "2024-08-13",
+      "actual_start_date": "2024-06-11",
+      "description": "This is a 2nd level order",
+      "status": "pending"
+    },
+    {
+      "order_number": 81514,
+      "schecule_start_date": "2024-02-26",
+      "schecule_end_date": "2024-11-26",
+      "actual_start_date": "2024-06-03",
+      "description": "This is a 2nd level order",
+      "status": "completed",
+      "actual_end_date": "2024-07-04"
+    },
+    {
+      "order_number": 81116,
+      "schecule_start_date": "2024-04-27",
+      "schecule_end_date": "2024-07-14",
+      "actual_start_date": "2024-07-24",
+      "description": "This is a 2nd level order",
+      "status": "Started",
+      "actual_end_date": "2024-11-07",
+      "dependencies": [
+        {
+          "order_number": 40739,
+          "schecule_start_date": "2024-03-06",
+          "schecule_end_date": "2024-07-09",
+          "actual_start_date": "2024-05-15",
+          "description": "This is a 3rd level order",
+          "status": "in_progress"
+        },
+        {
+          "order_number": 13420,
+          "schecule_start_date": "2024-04-05",
+          "schecule_end_date": "2024-07-12",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "in_progress"
+        },
+        {
+          "order_number": 68821,
+          "schecule_start_date": "2024-05-07",
+          "schecule_end_date": "2024-07-24",
+          "actual_start_date": "2024-08-19",
+          "description": "This is a 3rd level order",
+          "status": "in_progress"
+        },
+        {
+          "order_number": 78893,
+          "schecule_start_date": "2024-03-23",
+          "schecule_end_date": "2024-08-30",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "order_number": 11580,
+      "schecule_start_date": "2024-05-23",
+      "schecule_end_date": "2024-10-03",
+      "actual_start_date": "",
+      "description": "This is a 2nd level order",
+      "status": "unexecutable"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 562,
+      "resource_name": "Prime Fabrication",
+      "resource_type": "Shipping",
+      "resource_quantity": 22,
+      "resource_unit": "day"
+    }
+  ]
+}

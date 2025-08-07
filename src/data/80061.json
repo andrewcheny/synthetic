@@ -1,0 +1,41 @@
+{
+  "order_number": 80061,
+  "schecule_start_date": "2024-01-26",
+  "schecule_end_date": "2024-11-17",
+  "actual_start_date": "2024-08-25",
+  "description": "This is a 1st level order",
+  "status": "unexecutable",
+  "dependencies": [
+    {
+      "order_number": 21587,
+      "schecule_start_date": "2024-01-02",
+      "schecule_end_date": "2024-06-10",
+      "actual_start_date": "2024-03-09",
+      "description": "This is a 2nd level order",
+      "status": "in_progress"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 816,
+      "resource_name": "FastShip Logistics",
+      "resource_type": "Paint shop",
+      "resource_quantity": 19,
+      "resource_unit": "piece"
+    },
+    {
+      "resource_id": 979,
+      "resource_name": "Quality First Labs",
+      "resource_type": "Paint shop",
+      "resource_quantity": 21,
+      "resource_unit": "batch"
+    },
+    {
+      "resource_id": 449,
+      "resource_name": "Premier Assembly",
+      "resource_type": "Packaging",
+      "resource_quantity": 24,
+      "resource_unit": "hour"
+    }
+  ]
+}

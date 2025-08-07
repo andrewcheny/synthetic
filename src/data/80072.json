@@ -1,0 +1,35 @@
+{
+  "order_number": 80072,
+  "schecule_start_date": "2024-03-07",
+  "schecule_end_date": "2024-12-08",
+  "actual_start_date": "2024-01-14",
+  "description": "This is a 1st level order",
+  "status": "",
+  "dependencies": [
+    {
+      "order_number": 50415,
+      "schecule_start_date": "2024-04-02",
+      "schecule_end_date": "2024-09-10",
+      "actual_start_date": "2024-06-08",
+      "description": "This is a 2nd level order",
+      "status": "completed",
+      "actual_end_date": "2024-12-19"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 644,
+      "resource_name": "Steel Works LLC",
+      "resource_type": "Paint shop",
+      "resource_quantity": 9,
+      "resource_unit": "piece"
+    },
+    {
+      "resource_id": 921,
+      "resource_name": "Precision Paint Works",
+      "resource_type": "Packaging",
+      "resource_quantity": 20,
+      "resource_unit": "day"
+    }
+  ]
+}

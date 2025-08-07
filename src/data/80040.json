@@ -1,0 +1,61 @@
+{
+  "order_number": 80040,
+  "schecule_start_date": "2024-01-20",
+  "schecule_end_date": "2024-10-02",
+  "actual_start_date": "2024-03-03",
+  "description": "This is a 1st level order",
+  "status": "in_progress",
+  "dependencies": [
+    {
+      "order_number": 46413,
+      "schecule_start_date": "2024-03-18",
+      "schecule_end_date": "2024-07-28",
+      "actual_start_date": "2024-01-21",
+      "description": "This is a 2nd level order",
+      "status": "completed",
+      "actual_end_date": "2024-10-24"
+    },
+    {
+      "order_number": 56626,
+      "schecule_start_date": "2024-04-10",
+      "schecule_end_date": "2024-11-17",
+      "actual_start_date": "2024-01-23",
+      "description": "This is a 2nd level order",
+      "status": "Started",
+      "actual_end_date": "2024-06-07"
+    },
+    {
+      "order_number": 44527,
+      "schecule_start_date": "2024-01-20",
+      "schecule_end_date": "2024-08-01",
+      "actual_start_date": "",
+      "description": "This is a 2nd level order",
+      "status": "pending"
+    },
+    {
+      "order_number": 78284,
+      "schecule_start_date": "2024-05-13",
+      "schecule_end_date": "2024-10-24",
+      "actual_start_date": "2024-05-31",
+      "description": "This is a 2nd level order",
+      "status": "unexecutable"
+    },
+    {
+      "order_number": 18704,
+      "schecule_start_date": "2024-05-31",
+      "schecule_end_date": "2024-10-24",
+      "actual_start_date": "2024-06-11",
+      "description": "This is a 2nd level order",
+      "status": "unexecutable"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 371,
+      "resource_name": "Custom Metal Works",
+      "resource_type": "Fab shop",
+      "resource_quantity": 24,
+      "resource_unit": "hour"
+    }
+  ]
+}

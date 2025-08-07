@@ -1,0 +1,49 @@
+{
+  "order_number": 80020,
+  "schecule_start_date": "2024-02-09",
+  "schecule_end_date": "2024-08-17",
+  "actual_start_date": "2024-06-20",
+  "description": "This is a 1st level order",
+  "status": "",
+  "dependencies": [
+    {
+      "order_number": 61438,
+      "schecule_start_date": "2024-02-20",
+      "schecule_end_date": "2024-09-09",
+      "actual_start_date": "2024-09-26",
+      "description": "This is a 2nd level order",
+      "status": "unexecutable"
+    },
+    {
+      "order_number": 14560,
+      "schecule_start_date": "2024-02-24",
+      "schecule_end_date": "2024-06-30",
+      "actual_start_date": "2024-02-26",
+      "description": "This is a 2nd level order",
+      "status": "in_progress"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 741,
+      "resource_name": "TechPak Industries",
+      "resource_type": "Quality Control",
+      "resource_quantity": 1,
+      "resource_unit": "batch"
+    },
+    {
+      "resource_id": 554,
+      "resource_name": "Elite Finishing",
+      "resource_type": "Fab shop",
+      "resource_quantity": 3,
+      "resource_unit": "piece"
+    },
+    {
+      "resource_id": 515,
+      "resource_name": "Quick Pack Pro",
+      "resource_type": "Shipping",
+      "resource_quantity": 13,
+      "resource_unit": "batch"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "order_number": 80099,
+  "schecule_start_date": "2024-01-26",
+  "schecule_end_date": "2024-10-30",
+  "actual_start_date": "2024-03-19",
+  "description": "This is a 1st level order",
+  "status": "completed",
+  "dependencies": [
+    {
+      "order_number": 44391,
+      "schecule_start_date": "2024-04-19",
+      "schecule_end_date": "2024-11-22",
+      "actual_start_date": "",
+      "description": "This is a 2nd level order",
+      "status": "unexecutable"
+    },
+    {
+      "order_number": 61438,
+      "schecule_start_date": "2024-02-20",
+      "schecule_end_date": "2024-09-09",
+      "actual_start_date": "2024-09-26",
+      "description": "This is a 2nd level order",
+      "status": "unexecutable"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 792,
+      "resource_name": "PackRight Solutions",
+      "resource_type": "Assembly shop",
+      "resource_quantity": 8,
+      "resource_unit": "day"
+    }
+  ]
+}

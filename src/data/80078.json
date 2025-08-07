@@ -1,0 +1,45 @@
+{
+  "order_number": 80078,
+  "schecule_start_date": "2024-02-28",
+  "schecule_end_date": "2024-10-06",
+  "actual_start_date": "2024-02-14",
+  "description": "This is a 1st level order",
+  "status": "unexecutable",
+  "dependencies": [
+    {
+      "order_number": 88790,
+      "schecule_start_date": "2024-05-29",
+      "schecule_end_date": "2024-09-11",
+      "actual_start_date": "2024-07-11",
+      "description": "This is a 2nd level order",
+      "status": "",
+      "dependencies": [
+        {
+          "order_number": 97901,
+          "schecule_start_date": "2024-01-16",
+          "schecule_end_date": "2024-06-24",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "unexecutable"
+        },
+        {
+          "order_number": 11946,
+          "schecule_start_date": "2024-01-11",
+          "schecule_end_date": "2024-07-06",
+          "actual_start_date": "2024-09-18",
+          "description": "This is a 3rd level order",
+          "status": "pending"
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 77,
+      "resource_name": "FastShip Logistics",
+      "resource_type": "Paint shop",
+      "resource_quantity": 19,
+      "resource_unit": "hour"
+    }
+  ]
+}

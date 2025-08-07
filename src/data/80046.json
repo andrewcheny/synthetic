@@ -1,0 +1,117 @@
+{
+  "order_number": 80046,
+  "schecule_start_date": "2024-01-28",
+  "schecule_end_date": "2024-08-23",
+  "actual_start_date": "2024-04-06",
+  "description": "This is a 1st level order",
+  "status": "Started",
+  "dependencies": [
+    {
+      "order_number": 10296,
+      "schecule_start_date": "2024-02-05",
+      "schecule_end_date": "2024-12-06",
+      "actual_start_date": "2024-06-25",
+      "description": "This is a 2nd level order",
+      "status": "completed"
+    },
+    {
+      "order_number": 64666,
+      "schecule_start_date": "2024-01-03",
+      "schecule_end_date": "2024-06-09",
+      "actual_start_date": "",
+      "description": "This is a 2nd level order",
+      "status": "unexecutable",
+      "dependencies": [
+        {
+          "order_number": 32816,
+          "schecule_start_date": "2024-02-03",
+          "schecule_end_date": "2024-10-26",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "completed"
+        },
+        {
+          "order_number": 95180,
+          "schecule_start_date": "2024-04-01",
+          "schecule_end_date": "2024-06-29",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "in_progress"
+        },
+        {
+          "order_number": 91861,
+          "schecule_start_date": "2024-01-10",
+          "schecule_end_date": "2024-08-23",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "order_number": 65676,
+      "schecule_start_date": "2024-01-15",
+      "schecule_end_date": "2024-10-24",
+      "actual_start_date": "2024-06-20",
+      "description": "This is a 2nd level order",
+      "status": "Started",
+      "actual_end_date": "2024-10-16"
+    },
+    {
+      "order_number": 38369,
+      "schecule_start_date": "2024-03-25",
+      "schecule_end_date": "2024-06-14",
+      "actual_start_date": "2024-08-23",
+      "description": "This is a 2nd level order",
+      "status": "unexecutable",
+      "dependencies": [
+        {
+          "order_number": 79491,
+          "schecule_start_date": "2024-03-04",
+          "schecule_end_date": "2024-11-08",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "pending"
+        },
+        {
+          "order_number": 78194,
+          "schecule_start_date": "2024-02-28",
+          "schecule_end_date": "2024-06-22",
+          "actual_start_date": "2024-04-02",
+          "description": "This is a 3rd level order",
+          "status": "pending"
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 999,
+      "resource_name": "Industrial Coating Co",
+      "resource_type": "Fab shop",
+      "resource_quantity": 17,
+      "resource_unit": "batch"
+    },
+    {
+      "resource_id": 663,
+      "resource_name": "Industrial Coating Co",
+      "resource_type": "Shipping",
+      "resource_quantity": 12,
+      "resource_unit": "day"
+    },
+    {
+      "resource_id": 181,
+      "resource_name": "Prime Fabrication",
+      "resource_type": "Paint shop",
+      "resource_quantity": 18,
+      "resource_unit": "hour"
+    },
+    {
+      "resource_id": 940,
+      "resource_name": "Reliable Transport",
+      "resource_type": "Fab shop",
+      "resource_quantity": 24,
+      "resource_unit": "hour"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "order_number": 80050,
+  "schecule_start_date": "2024-02-27",
+  "schecule_end_date": "2024-10-25",
+  "actual_start_date": "2024-07-30",
+  "description": "This is a 1st level order",
+  "status": "pending",
+  "dependencies": [
+    {
+      "order_number": 65676,
+      "schecule_start_date": "2024-01-15",
+      "schecule_end_date": "2024-10-24",
+      "actual_start_date": "2024-06-20",
+      "description": "This is a 2nd level order",
+      "status": "Started",
+      "actual_end_date": "2024-10-16"
+    },
+    {
+      "order_number": 43966,
+      "schecule_start_date": "2024-04-23",
+      "schecule_end_date": "2024-09-09",
+      "actual_start_date": "2024-06-17",
+      "description": "This is a 2nd level order",
+      "status": "completed"
+    },
+    {
+      "order_number": 88905,
+      "schecule_start_date": "2024-03-17",
+      "schecule_end_date": "2024-09-01",
+      "actual_start_date": "2024-09-07",
+      "description": "This is a 2nd level order",
+      "status": "Started"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 139,
+      "resource_name": "Quick Pack Pro",
+      "resource_type": "Quality Control",
+      "resource_quantity": 2,
+      "resource_unit": "batch"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "order_number": 80014,
+  "schecule_start_date": "2024-01-28",
+  "schecule_end_date": "2024-12-08",
+  "actual_start_date": "2024-03-08",
+  "description": "This is a 1st level order",
+  "status": "Started",
+  "dependencies": [
+    {
+      "order_number": 58224,
+      "schecule_start_date": "2024-04-01",
+      "schecule_end_date": "2024-11-08",
+      "actual_start_date": "",
+      "description": "This is a 2nd level order",
+      "status": ""
+    },
+    {
+      "order_number": 33717,
+      "schecule_start_date": "2024-01-04",
+      "schecule_end_date": "2024-11-07",
+      "actual_start_date": "2024-03-28",
+      "description": "This is a 2nd level order",
+      "status": "pending",
+      "dependencies": [
+        {
+          "order_number": 43639,
+          "schecule_start_date": "2024-01-29",
+          "schecule_end_date": "2024-12-27",
+          "actual_start_date": "2024-01-18",
+          "description": "This is a 3rd level order",
+          "status": "Started",
+          "actual_end_date": "2024-11-10"
+        },
+        {
+          "order_number": 83176,
+          "schecule_start_date": "2024-02-14",
+          "schecule_end_date": "2024-11-18",
+          "actual_start_date": "2024-08-01",
+          "description": "This is a 3rd level order",
+          "status": "pending"
+        },
+        {
+          "order_number": 49933,
+          "schecule_start_date": "2024-02-27",
+          "schecule_end_date": "2024-10-13",
+          "actual_start_date": "2024-09-20",
+          "description": "This is a 3rd level order",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "order_number": 79894,
+      "schecule_start_date": "2024-05-26",
+      "schecule_end_date": "2024-10-02",
+      "actual_start_date": "2024-03-17",
+      "description": "This is a 2nd level order",
+      "status": "pending"
+    },
+    {
+      "order_number": 17287,
+      "schecule_start_date": "2024-05-31",
+      "schecule_end_date": "2024-09-23",
+      "actual_start_date": "2024-09-16",
+      "description": "This is a 2nd level order",
+      "status": "in_progress",
+      "dependencies": [
+        {
+          "order_number": 77264,
+          "schecule_start_date": "2024-05-07",
+          "schecule_end_date": "2024-07-09",
+          "actual_start_date": "2024-05-01",
+          "description": "This is a 3rd level order",
+          "status": "Started",
+          "actual_end_date": "2024-08-10"
+        },
+        {
+          "order_number": 25524,
+          "schecule_start_date": "2024-04-22",
+          "schecule_end_date": "2024-12-12",
+          "actual_start_date": "2024-10-01",
+          "description": "This is a 3rd level order",
+          "status": "Started"
+        },
+        {
+          "order_number": 30872,
+          "schecule_start_date": "2024-01-28",
+          "schecule_end_date": "2024-06-12",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "in_progress"
+        },
+        {
+          "order_number": 67222,
+          "schecule_start_date": "2024-05-05",
+          "schecule_end_date": "2024-06-25",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "Started"
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 165,
+      "resource_name": "TechPak Industries",
+      "resource_type": "Assembly shop",
+      "resource_quantity": 4,
+      "resource_unit": "hour"
+    },
+    {
+      "resource_id": 624,
+      "resource_name": "Steel Works LLC",
+      "resource_type": "Paint shop",
+      "resource_quantity": 10,
+      "resource_unit": "batch"
+    },
+    {
+      "resource_id": 17,
+      "resource_name": "Prime Fabrication",
+      "resource_type": "Fab shop",
+      "resource_quantity": 13,
+      "resource_unit": "batch"
+    },
+    {
+      "resource_id": 103,
+      "resource_name": "Superior Fab",
+      "resource_type": "Assembly shop",
+      "resource_quantity": 9,
+      "resource_unit": "hour"
+    },
+    {
+      "resource_id": 270,
+      "resource_name": "Metro Paint Center",
+      "resource_type": "Packaging",
+      "resource_quantity": 13,
+      "resource_unit": "hour"
+    }
+  ]
+}

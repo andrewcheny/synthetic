@@ -1,0 +1,90 @@
+{
+  "order_number": 80079,
+  "schecule_start_date": "2024-01-29",
+  "schecule_end_date": "2024-10-10",
+  "actual_start_date": "2024-02-12",
+  "description": "This is a 1st level order",
+  "status": "in_progress",
+  "dependencies": [
+    {
+      "order_number": 42569,
+      "schecule_start_date": "2024-02-22",
+      "schecule_end_date": "2024-11-12",
+      "actual_start_date": "",
+      "description": "This is a 2nd level order",
+      "status": "in_progress",
+      "dependencies": [
+        {
+          "order_number": 34767,
+          "schecule_start_date": "2024-01-23",
+          "schecule_end_date": "2024-08-16",
+          "actual_start_date": "2024-01-08",
+          "description": "This is a 3rd level order",
+          "status": "unexecutable"
+        },
+        {
+          "order_number": 35951,
+          "schecule_start_date": "2024-02-03",
+          "schecule_end_date": "2024-09-04",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "unexecutable"
+        },
+        {
+          "order_number": 45329,
+          "schecule_start_date": "2024-02-19",
+          "schecule_end_date": "2024-06-10",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "completed"
+        },
+        {
+          "order_number": 81846,
+          "schecule_start_date": "2024-04-11",
+          "schecule_end_date": "2024-08-17",
+          "actual_start_date": "",
+          "description": "This is a 3rd level order",
+          "status": "unexecutable"
+        }
+      ]
+    },
+    {
+      "order_number": 11580,
+      "schecule_start_date": "2024-05-23",
+      "schecule_end_date": "2024-10-03",
+      "actual_start_date": "",
+      "description": "This is a 2nd level order",
+      "status": "unexecutable"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 565,
+      "resource_name": "Global Logistics",
+      "resource_type": "Shipping",
+      "resource_quantity": 25,
+      "resource_unit": "hour"
+    },
+    {
+      "resource_id": 349,
+      "resource_name": "Industrial Solutions",
+      "resource_type": "Shipping",
+      "resource_quantity": 5,
+      "resource_unit": "batch"
+    },
+    {
+      "resource_id": 587,
+      "resource_name": "PackRight Solutions",
+      "resource_type": "Fab shop",
+      "resource_quantity": 16,
+      "resource_unit": "day"
+    },
+    {
+      "resource_id": 123,
+      "resource_name": "Reliable Transport",
+      "resource_type": "Fab shop",
+      "resource_quantity": 22,
+      "resource_unit": "batch"
+    }
+  ]
+}

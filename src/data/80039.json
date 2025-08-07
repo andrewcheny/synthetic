@@ -1,0 +1,55 @@
+{
+  "order_number": 80039,
+  "schecule_start_date": "2024-01-25",
+  "schecule_end_date": "2024-11-12",
+  "actual_start_date": "",
+  "description": "This is a 1st level order",
+  "status": "completed",
+  "dependencies": [
+    {
+      "order_number": 22388,
+      "schecule_start_date": "2024-01-07",
+      "schecule_end_date": "2024-09-02",
+      "actual_start_date": "2024-01-30",
+      "description": "This is a 2nd level order",
+      "status": "completed"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 443,
+      "resource_name": "Reliable Transport",
+      "resource_type": "Quality Control",
+      "resource_quantity": 23,
+      "resource_unit": "batch"
+    },
+    {
+      "resource_id": 948,
+      "resource_name": "Steel Works LLC",
+      "resource_type": "Quality Control",
+      "resource_quantity": 10,
+      "resource_unit": "day"
+    },
+    {
+      "resource_id": 14,
+      "resource_name": "Steel Works LLC",
+      "resource_type": "Packaging",
+      "resource_quantity": 7,
+      "resource_unit": "batch"
+    },
+    {
+      "resource_id": 399,
+      "resource_name": "Industrial Coating Co",
+      "resource_type": "Quality Control",
+      "resource_quantity": 25,
+      "resource_unit": "hour"
+    },
+    {
+      "resource_id": 137,
+      "resource_name": "Apex Manufacturing",
+      "resource_type": "Quality Control",
+      "resource_quantity": 6,
+      "resource_unit": "piece"
+    }
+  ]
+}

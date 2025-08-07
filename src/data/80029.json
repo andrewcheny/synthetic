@@ -1,0 +1,53 @@
+{
+  "order_number": 80029,
+  "schecule_start_date": "2024-03-22",
+  "schecule_end_date": "2024-08-18",
+  "actual_start_date": "2024-06-22",
+  "description": "This is a 1st level order",
+  "status": "pending",
+  "dependencies": [
+    {
+      "order_number": 75064,
+      "schecule_start_date": "2024-05-24",
+      "schecule_end_date": "2024-07-29",
+      "actual_start_date": "2024-05-03",
+      "description": "This is a 2nd level order",
+      "status": "",
+      "dependencies": [
+        {
+          "order_number": 39309,
+          "schecule_start_date": "2024-03-18",
+          "schecule_end_date": "2024-10-11",
+          "actual_start_date": "2024-08-06",
+          "description": "This is a 3rd level order",
+          "status": "completed"
+        },
+        {
+          "order_number": 43351,
+          "schecule_start_date": "2024-04-30",
+          "schecule_end_date": "2024-07-11",
+          "actual_start_date": "2024-02-03",
+          "description": "This is a 3rd level order",
+          "status": ""
+        }
+      ]
+    },
+    {
+      "order_number": 33157,
+      "schecule_start_date": "2024-04-03",
+      "schecule_end_date": "2024-12-08",
+      "actual_start_date": "2024-07-15",
+      "description": "This is a 2nd level order",
+      "status": ""
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 399,
+      "resource_name": "Quality First Labs",
+      "resource_type": "Shipping",
+      "resource_quantity": 14,
+      "resource_unit": "day"
+    }
+  ]
+}
